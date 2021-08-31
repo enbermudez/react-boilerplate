@@ -1,0 +1,11 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "https://github.com/enbermudez/react-boilerplate.git",
+  "author": "Enrique Bermúdez <enrique.bermudez@mercadolibre.com>",
+  "license": "MIT"
+}
