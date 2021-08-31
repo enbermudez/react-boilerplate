@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode production",
+    "build": "yarn rimraf dist && webpack --mode production",
     "format": "prettier --write src/**/*.js[x]",
     "lint": "eslint src/**/*.js[x]",
     "lint:fix": "yarn lint --fix && yarn format",
@@ -34,6 +34,7 @@
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.2",
     "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
     "sass": "^1.38.2",
     "sass-loader": "^12.1.0",
     "style-loader": "^3.2.1",
